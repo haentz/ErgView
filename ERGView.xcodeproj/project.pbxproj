@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB9FAF02B39C40600B53DE8 /* ERGViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FAEF2B39C40600B53DE8 /* ERGViewApp.swift */; };
+		3AB9FAF22B39C40600B53DE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FAF12B39C40600B53DE8 /* ContentView.swift */; };
+		3AB9FAF42B39C40A00B53DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9FAF32B39C40A00B53DE8 /* Assets.xcassets */; };
+		3AB9FAF72B39C40A00B53DE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9FAF62B39C40A00B53DE8 /* Preview Assets.xcassets */; };
+		3AB9FB022B39C40A00B53DE8 /* ERGViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FB012B39C40A00B53DE8 /* ERGViewTests.swift */; };
+		3AB9FB0C2B39C40A00B53DE8 /* ERGViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FB0B2B39C40A00B53DE8 /* ERGViewUITests.swift */; };
+		3AB9FB0E2B39C40A00B53DE8 /* ERGViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FB0D2B39C40A00B53DE8 /* ERGViewUITestsLaunchTests.swift */; };
+		3AB9FB1C2B39C43700B53DE8 /* ErgKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FB1B2B39C43700B53DE8 /* ErgKit.swift */; };
+		3AB9FB1D2B39C43700B53DE8 /* ErgKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9FB1B2B39C43700B53DE8 /* ErgKit.swift */; };
+		3AB9FB1F2B39C5DD00B53DE8 /* test.erg in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9FB1E2B39C5DD00B53DE8 /* test.erg */; };
+		3AB9FB202B39C5DD00B53DE8 /* test.erg in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9FB1E2B39C5DD00B53DE8 /* test.erg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB9FAFE2B39C40A00B53DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB9FAE42B39C40600B53DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB9FAEB2B39C40600B53DE8;
+			remoteInfo = ERGView;
+		};
+		3AB9FB082B39C40A00B53DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB9FAE42B39C40600B53DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB9FAEB2B39C40600B53DE8;
+			remoteInfo = ERGView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AB9FAEC2B39C40600B53DE8 /* ERGView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERGView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB9FAEF2B39C40600B53DE8 /* ERGViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERGViewApp.swift; sourceTree = "<group>"; };
+		3AB9FAF12B39C40600B53DE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AB9FAF32B39C40A00B53DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB9FAF62B39C40A00B53DE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AB9FAF82B39C40A00B53DE8 /* ERGView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ERGView.entitlements; sourceTree = "<group>"; };
+		3AB9FAFD2B39C40A00B53DE8 /* ERGViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERGViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB9FB012B39C40A00B53DE8 /* ERGViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERGViewTests.swift; sourceTree = "<group>"; };
+		3AB9FB072B39C40A00B53DE8 /* ERGViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERGViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB9FB0B2B39C40A00B53DE8 /* ERGViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERGViewUITests.swift; sourceTree = "<group>"; };
+		3AB9FB0D2B39C40A00B53DE8 /* ERGViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERGViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AB9FB1B2B39C43700B53DE8 /* ErgKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgKit.swift; sourceTree = "<group>"; };
+		3AB9FB1E2B39C5DD00B53DE8 /* test.erg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.erg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB9FAE92B39C40600B53DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB9FAFA2B39C40A00B53DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB9FB042B39C40A00B53DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB9FAE32B39C40600B53DE8 = {
+			isa = PBXGroup;
+			children = (
+				3AB9FB1E2B39C5DD00B53DE8 /* test.erg */,
+				3AB9FB1A2B39C41600B53DE8 /* Helper */,
+				3AB9FAEE2B39C40600B53DE8 /* ERGView */,
+				3AB9FB002B39C40A00B53DE8 /* ERGViewTests */,
+				3AB9FB0A2B39C40A00B53DE8 /* ERGViewUITests */,
+				3AB9FAED2B39C40600B53DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB9FAED2B39C40600B53DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9FAEC2B39C40600B53DE8 /* ERGView.app */,
+				3AB9FAFD2B39C40A00B53DE8 /* ERGViewTests.xctest */,
+				3AB9FB072B39C40A00B53DE8 /* ERGViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB9FAEE2B39C40600B53DE8 /* ERGView */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9FAEF2B39C40600B53DE8 /* ERGViewApp.swift */,
+				3AB9FAF12B39C40600B53DE8 /* ContentView.swift */,
+				3AB9FAF32B39C40A00B53DE8 /* Assets.xcassets */,
+				3AB9FAF82B39C40A00B53DE8 /* ERGView.entitlements */,
+				3AB9FAF52B39C40A00B53DE8 /* Preview Content */,
+			);
+			path = ERGView;
+			sourceTree = "<group>";
+		};
+		3AB9FAF52B39C40A00B53DE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9FAF62B39C40A00B53DE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AB9FB002B39C40A00B53DE8 /* ERGViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9FB012B39C40A00B53DE8 /* ERGViewTests.swift */,
+			);
+			path = ERGViewTests;
+			sourceTree = "<group>";
+		};
+		3AB9FB0A2B39C40A00B53DE8 /* ERGViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9FB0B2B39C40A00B53DE8 /* ERGViewUITests.swift */,
+				3AB9FB0D2B39C40A00B53DE8 /* ERGViewUITestsLaunchTests.swift */,
+			);
+			path = ERGViewUITests;
+			sourceTree = "<group>";
+		};
+		3AB9FB1A2B39C41600B53DE8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9FB1B2B39C43700B53DE8 /* ErgKit.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB9FAEB2B39C40600B53DE8 /* ERGView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB9FB112B39C40A00B53DE8 /* Build configuration list for PBXNativeTarget "ERGView" */;
+			buildPhases = (
+				3AB9FAE82B39C40600B53DE8 /* Sources */,
+				3AB9FAE92B39C40600B53DE8 /* Frameworks */,
+				3AB9FAEA2B39C40600B53DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERGView;
+			productName = ERGView;
+			productReference = 3AB9FAEC2B39C40600B53DE8 /* ERGView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB9FAFC2B39C40A00B53DE8 /* ERGViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB9FB142B39C40A00B53DE8 /* Build configuration list for PBXNativeTarget "ERGViewTests" */;
+			buildPhases = (
+				3AB9FAF92B39C40A00B53DE8 /* Sources */,
+				3AB9FAFA2B39C40A00B53DE8 /* Frameworks */,
+				3AB9FAFB2B39C40A00B53DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB9FAFF2B39C40A00B53DE8 /* PBXTargetDependency */,
+			);
+			name = ERGViewTests;
+			productName = ERGViewTests;
+			productReference = 3AB9FAFD2B39C40A00B53DE8 /* ERGViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AB9FB062B39C40A00B53DE8 /* ERGViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB9FB172B39C40A00B53DE8 /* Build configuration list for PBXNativeTarget "ERGViewUITests" */;
+			buildPhases = (
+				3AB9FB032B39C40A00B53DE8 /* Sources */,
+				3AB9FB042B39C40A00B53DE8 /* Frameworks */,
+				3AB9FB052B39C40A00B53DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB9FB092B39C40A00B53DE8 /* PBXTargetDependency */,
+			);
+			name = ERGViewUITests;
+			productName = ERGViewUITests;
+			productReference = 3AB9FB072B39C40A00B53DE8 /* ERGViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB9FAE42B39C40600B53DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3AB9FAEB2B39C40600B53DE8 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					3AB9FAFC2B39C40A00B53DE8 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3AB9FAEB2B39C40600B53DE8;
+					};
+					3AB9FB062B39C40A00B53DE8 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3AB9FAEB2B39C40600B53DE8;
+					};
+				};
+			};
+			buildConfigurationList = 3AB9FAE72B39C40600B53DE8 /* Build configuration list for PBXProject "ERGView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB9FAE32B39C40600B53DE8;
+			productRefGroup = 3AB9FAED2B39C40600B53DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB9FAEB2B39C40600B53DE8 /* ERGView */,
+				3AB9FAFC2B39C40A00B53DE8 /* ERGViewTests */,
+				3AB9FB062B39C40A00B53DE8 /* ERGViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB9FAEA2B39C40600B53DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB9FAF72B39C40A00B53DE8 /* Preview Assets.xcassets in Resources */,
+				3AB9FAF42B39C40A00B53DE8 /* Assets.xcassets in Resources */,
+				3AB9FB1F2B39C5DD00B53DE8 /* test.erg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB9FAFB2B39C40A00B53DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB9FB202B39C5DD00B53DE8 /* test.erg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB9FB052B39C40A00B53DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB9FAE82B39C40600B53DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB9FB1C2B39C43700B53DE8 /* ErgKit.swift in Sources */,
+				3AB9FAF22B39C40600B53DE8 /* ContentView.swift in Sources */,
+				3AB9FAF02B39C40600B53DE8 /* ERGViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB9FAF92B39C40A00B53DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB9FB022B39C40A00B53DE8 /* ERGViewTests.swift in Sources */,
+				3AB9FB1D2B39C43700B53DE8 /* ErgKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB9FB032B39C40A00B53DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB9FB0E2B39C40A00B53DE8 /* ERGViewUITestsLaunchTests.swift in Sources */,
+				3AB9FB0C2B39C40A00B53DE8 /* ERGViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB9FAFF2B39C40A00B53DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB9FAEB2B39C40600B53DE8 /* ERGView */;
+			targetProxy = 3AB9FAFE2B39C40A00B53DE8 /* PBXContainerItemProxy */;
+		};
+		3AB9FB092B39C40A00B53DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB9FAEB2B39C40600B53DE8 /* ERGView */;
+			targetProxy = 3AB9FB082B39C40A00B53DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AB9FB0F2B39C40A00B53DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AB9FB102B39C40A00B53DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3AB9FB122B39C40A00B53DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ERGView/ERGView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ERGView/Preview Content\"";
+				DEVELOPMENT_TEAM = NTUXQ539NB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hans-schneider.ERGView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3AB9FB132B39C40A00B53DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ERGView/ERGView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ERGView/Preview Content\"";
+				DEVELOPMENT_TEAM = NTUXQ539NB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hans-schneider.ERGView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3AB9FB152B39C40A00B53DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTUXQ539NB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hans-schneider.ERGViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERGView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ERGView";
+			};
+			name = Debug;
+		};
+		3AB9FB162B39C40A00B53DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTUXQ539NB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hans-schneider.ERGViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERGView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ERGView";
+			};
+			name = Release;
+		};
+		3AB9FB182B39C40A00B53DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTUXQ539NB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hans-schneider.ERGViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ERGView;
+			};
+			name = Debug;
+		};
+		3AB9FB192B39C40A00B53DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTUXQ539NB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hans-schneider.ERGViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ERGView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB9FAE72B39C40600B53DE8 /* Build configuration list for PBXProject "ERGView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB9FB0F2B39C40A00B53DE8 /* Debug */,
+				3AB9FB102B39C40A00B53DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB9FB112B39C40A00B53DE8 /* Build configuration list for PBXNativeTarget "ERGView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB9FB122B39C40A00B53DE8 /* Debug */,
+				3AB9FB132B39C40A00B53DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB9FB142B39C40A00B53DE8 /* Build configuration list for PBXNativeTarget "ERGViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB9FB152B39C40A00B53DE8 /* Debug */,
+				3AB9FB162B39C40A00B53DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB9FB172B39C40A00B53DE8 /* Build configuration list for PBXNativeTarget "ERGViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB9FB182B39C40A00B53DE8 /* Debug */,
+				3AB9FB192B39C40A00B53DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AB9FAE42B39C40600B53DE8 /* Project object */;
+}
