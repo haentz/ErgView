@@ -11,7 +11,10 @@ import SwiftUI
 struct ERGViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          
+           
+        WorkoutView()
+            
             
         
         }
